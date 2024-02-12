@@ -12,7 +12,6 @@ const Home = () => {
                 <MainMenu />
                 <Baner />
             </div>
-            <h1>Home</h1>
         </>
     );
 };
