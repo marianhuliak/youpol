@@ -1,3 +1,7 @@
+.main-menu {
+    width: 290px;
+}
+
 li {
     list-style-type: none;
 }
@@ -8,8 +12,17 @@ li {
 }
 
 .menu-item {
-    margin: 10px;   
+    margin: 10px;  
+    padding: 5px 40px 5px 10px;
+    border-radius: 20px;
 }
+
+.menu-item:focus {
+    background-color: black;
+    color: white;
+}
+
+
 
 .menu-link {
     display: flex;
@@ -18,18 +31,10 @@ li {
     font-size: 16px;
 }
 
-
 .menu-link img {
     margin-right: 10px; 
     width: 30px;
 }
-
-
-
-
-
-
-
 
 .menu-link.active {
     animation: popUp 0.5s ease forwards;

@@ -1,18 +1,23 @@
 :root {
     --background-color-light: aliceblue;
-    --text-color-light: black;
-
     --background-color-dark: black;
-    --text-color-dark: white;
 }
 
 .body-light {
     background-color: var(--background);
-    color: var(--text-color-light);
     
 }
 
 .body-dark {
     background-color: var(--background-color-dark);
-    color: var(--text-color-dark);
+}
+
+
+.body-dark  * {
+    color: white;
+}
+
+.body-dark input {
+    border: white;
+
 }

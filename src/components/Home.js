@@ -12,6 +12,7 @@ const Home = () => {
                 <MainMenu />
                 <Baner />
             </div>
+            <h1>Hello</h1>
         </>
     );
 };

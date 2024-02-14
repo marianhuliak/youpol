@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:aliceblue;
+  background-color: aliceblue;
 }
 
 code {
@@ -17,6 +17,10 @@ code {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+button {
+  border-style: solid;
 }
 
 
