@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Nav from './Nav.js';
 import MainMenu from './MainMenu.js';
-import Baner from './Baner.js';
+import Banner from './Banner.js';
 import './Home.css';
 
 const Home = () => {
@@ -10,9 +10,9 @@ const Home = () => {
             <Nav />
             <div className='homeComtainer'>
                 <MainMenu />
-                <Baner />
+                <Banner />
+                
             </div>
-            <h1>Hello</h1>
         </>
     );
 };

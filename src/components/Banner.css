@@ -16,11 +16,26 @@
     color: white;
 }
 
+.textUnderVideo {
+    display: flex;
+}
+
+.channelLogo {
+    border-radius: 100px;
+    width: 36px;
+    margin: 10px;
+}
+
+.videoOggy {
+    width: 333px;
+    height: 187px;
+    border-radius: 15px;
+}
 
 
 @media (min-width: 30px)
 {
-    .videos-baner {
+    .videos-banner {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 5px;
