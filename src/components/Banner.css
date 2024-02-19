@@ -2,14 +2,20 @@
     margin: 5px;
 }
 
+.videos-banner {
+    margin-top: 25px;
+}
+
+
 .commonButton {
     border: 0;
-    font-size: 16px;
-    border-radius: 5px;
-    padding: 5px 10px 5px 10px;
+    font-size: 14px;
+    border-radius: 7px;
+    padding: 7px 10px 7px 10px;
     font-weight: bold;
-    background-color:rgba(186, 189, 193, 0.548);
+    background-color: #f1f1f1 ;
 }
+
 
 .commonButton:focus {
     background-color: black;
@@ -33,13 +39,12 @@
 }
 
 
-@media (min-width: 30px)
-{
+@media (min-width: 30px) {
     .videos-banner {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 5px;
         width: auto;
     }
-    
+
 }
