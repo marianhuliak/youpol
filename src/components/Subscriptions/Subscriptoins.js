@@ -11,6 +11,7 @@ const Subscriptions = () => {
 
 
         <h1>Subscriptions</h1>
+        <input type="text" />
         </>
     )
 

@@ -4,7 +4,7 @@ import logoOggy from '../images/oggy_and_his_friends_logo.jpeg';
 
 const Banner = () => {
   return (
-    <div>
+    <div className="bannerContainer">
       <div>
         <button className="commonButton">All of them</button>
         <button className="commonButton">Music</button>

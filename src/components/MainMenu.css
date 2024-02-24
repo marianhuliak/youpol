@@ -1,71 +1,13 @@
-.menu-item {
-  display: flex;
-  align-items: center;
-}
-
 .main-menu {
   height: 100vh;
-}
-
-.menu-icon-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@media (min-width: 320px) {
-  .main-menu {
-    width: 80px;
-  }
-  .menu-item-text {
-    font-size: 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-
-  .menu-item {
-    flex-direction: column;
-  }
-
-  .menu-icon {
-    width: 24px;
-  }
-
-  .menu-item {
-    width: 80px;
-    height: 74px;
-    padding: 16px 0 14px;
-  }
-}
-
-/*
-
-
-80 === 64
-.main-menu {
-  width: 290px;
 }
 
 li {
   list-style-type: none;
 }
 
-.menu-list {
-  padding: 0;
-  margin: 0 20px 0 0;
-}
-
 .menu-link:visited {
   color: black;
-}
-
-
-
-.menu-item {
-  margin: 10px;
-  padding: 5px 40px 5px 10px;
-  border-radius: 20px;
 }
 
 .menu-item:focus {
@@ -77,28 +19,7 @@ li {
   background-color: rgba(186, 189, 193, 0.548);
 }
 
-.menu-link {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  font-size: 16px;
-}
 
-.menu-link img {
-  margin-right: 10px;
-  width: 30px;
-}
-
-.menu-link.active {
-  animation: popUp 0.5s ease forwards;
-}
-
-.line {
-  width: 100px;
-  border: 1px solid rgba(186, 189, 193, 0.548);
-  width: 200px;
-  margin: 15px;
-}
 
 @keyframes popUp {
   0% {
@@ -114,5 +35,83 @@ li {
   }
 }
 
+.menu-link.active {
+  animation: popUp 0.5s ease forwards;
+}
 
-*/
+@media (min-width: 320px) {
+  .menu-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .menu-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 64px;
+    height: 74px;
+    padding: 16px 0 14px 13px;
+    
+  }
+
+  .main-menu {
+    width: 80px;
+  }
+  .menu-item-text {
+    font-size: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .menu-link img {
+    margin-right: 10px;
+    width: 24px;
+  }
+}
+
+@media (min-width: 1313px) {
+  .menu-item {
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+    width: 204px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  .main-menu {
+    width: 216px;
+  }
+
+  .menu-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  .line {
+    width: 100px;
+    border: 1px solid rgba(186, 189, 193, 0.548);
+    width: 200px;
+    margin: 15px;
+  }
+
+  .menu-icon-container {
+    padding-right: 12px;
+  }
+
+
+  .menu-link img {
+    margin-right: 10px;
+    margin-left: 15px;
+    width: 26px;
+  }
+
+  .menu-item-text {
+    font-size: 15px;
+  }
+}

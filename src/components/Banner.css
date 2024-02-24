@@ -1,50 +1,86 @@
 .commonButton {
-    margin: 5px;
+  margin: 5px;
 }
 
 .videos-banner {
-    margin-top: 25px;
+  margin-top: 24px;
 }
-
 
 .commonButton {
-    border: 0;
-    font-size: 14px;
-    border-radius: 7px;
-    padding: 7px 10px 7px 10px;
-    font-weight: bold;
-    background-color: #f1f1f1 ;
+  border: 0;
+  font-size: 14px;
+  border-radius: 7px;
+  padding: 7px 10px 7px 10px;
+  font-weight: bold;
+  background-color: #f1f1f1;
 }
 
-
 .commonButton:focus {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
 
 .textUnderVideo {
-    display: flex;
+  display: flex;
 }
 
 .channelLogo {
-    border-radius: 100px;
-    width: 36px;
-    margin: 10px;
+  border-radius: 100px;
+  width: 36px;
+  margin: 10px;
 }
 
-.videoOggy {
-    width: 333px;
+.bannerContainer {
+  padding: 0 16px 0 36px;
+}
+
+.videoContainer {
+    margin-right: 3390px;
+}
+
+@media (min-width: 320px) {
+  .videos-banner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    width: auto;
+  }
+
+  .videoOggy {
+    width: 100%;
+    height: 250px;
+    max-width: 500px; 
+    border-radius: 15px;
+  }
+}
+
+@media (min-width: 600px) {
+  .videos-banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+    width: auto;
+  }
+
+  .videoOggy {
+    width: 100%;
+    height: 250px;
+    max-width: 500px;
+    border-radius: 15px;
+  }
+}
+
+@media (min-width: 1081px) {
+  .videos-banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    width: auto;
+  }
+
+  .videoOggy {
+    width: 100%;
     height: 187px;
     border-radius: 15px;
-}
-
-
-@media (min-width: 30px) {
-    .videos-banner {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 5px;
-        width: auto;
-    }
-
+  }
 }
