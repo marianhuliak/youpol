@@ -1,21 +1,15 @@
-import React, { useState } from 'react';
-import Nav from '../Nav.js'
-import MainMenu from '../MainMenu.js';
-
+import React from "react";
+import Nav from "../Nav.js";
+import MainMenu from "../MainMenu.js";
 
 const Subscriptions = () => {
-    return (
-        <>
-        <Nav />
-        <MainMenu />
-
-
-        <h1>Subscriptions</h1>
-        <input type="text" />
-        </>
-    )
-
-  
+  return (
+    <>
+      <Nav />
+      <MainMenu />
+      <h1>Subscriptions</h1>
+    </>
+  );
 };
 
 export default Subscriptions;

@@ -12,8 +12,6 @@ const Home = () => {
         <MainMenu />
         <Banner />
       </div>
-
-      <input type="password" />
     </>
   );
 };

@@ -4,7 +4,6 @@ import logoWhite from "../images/youpol_logo_2017_white.svg";
 import magnifier from "../images/search_magnifier.svg";
 import "./Nav.css";
 import "./Theme.css";
-import { Link } from "react-router-dom";
 
 let navstate = {};
 const Nav = () => {
@@ -33,7 +32,7 @@ const Nav = () => {
           className="mainLogo"
           src={currentTheme === "light" ? logo : logoWhite}
           alt="Logo"
-          style={{width: '90px'}}
+          style={{ width: "90px" }}
         />
       </div>
 
@@ -47,7 +46,11 @@ const Nav = () => {
             placeholder="Search"
           />
           <button onClick={clickSearchHandler} className="searchButton">
-            <img className="searchMagnifying" src={magnifier} alt="YouPol music" />
+            <img
+              className="searchMagnifying"
+              src={magnifier}
+              alt="YouPol music"
+            />
           </button>
         </label>
       </div>
