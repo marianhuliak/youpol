@@ -1,6 +1,6 @@
-import React from 'react';
-import './Banner.css';
-import logoOggy from '../images/oggy_and_his_friends_logo.jpeg';
+import React from "react";
+import "./Banner.css";
+import logoOggy from "../images/oggy_and_his_friends_logo.jpeg";
 
 const Banner = () => {
   return (
@@ -18,7 +18,7 @@ const Banner = () => {
         <button className="commonButton">You watched</button>
         <button className="commonButton">News for you</button>
       </div>
-      <div className="videos-banner">
+      <div className="videosBanner">
         <div>
           <iframe
             className="videoOggy"
@@ -30,10 +30,12 @@ const Banner = () => {
           ></iframe>
           <div className="textUnderVideo">
             <div>
-              <img className='channelLogo' src={logoOggy} alt="Oggy Logo" />
+              <img className="channelLogo" src={logoOggy} alt="Oggy Logo" />
             </div>
             <div>
-              <p>Oggy and the Cockroaches 😂 COCKROACH OR CAT - Full Episodes HD</p>
+              <p>
+                Oggy and the Cockroaches 😂 COCKROACH OR CAT - Full Episodes HD
+              </p>
               <p>Oggy & his friends</p>
               <p>1 million views • 2 years ago</p>
             </div>
@@ -50,7 +52,7 @@ const Banner = () => {
           ></iframe>
           <div className="textUnderVideo">
             <div>
-              <img className='channelLogo' src={logoOggy} alt="Logo" />
+              <img className="channelLogo" src={logoOggy} alt="Logo" />
             </div>
             <div>
               <p>Zig & Sharko 🧐 MERMAID OR JELLYFISH - Compilation in HD</p>
@@ -70,7 +72,7 @@ const Banner = () => {
           ></iframe>
           <div className="textUnderVideo">
             <div>
-              <img className='channelLogo' src={logoOggy} alt="Logo" />
+              <img className="channelLogo" src={logoOggy} alt="Logo" />
             </div>
             <div>
               <p>Zig & Sharko 🌈 RAINBOW SADNESS #2 - Compilation in HD</p>
@@ -90,7 +92,7 @@ const Banner = () => {
           ></iframe>
           <div className="textUnderVideo">
             <div>
-              <img className='channelLogo' src={logoOggy} alt="Logo" />
+              <img className="channelLogo" src={logoOggy} alt="Logo" />
             </div>
             <div>
               <p>Zig & Sharko 🎸 THE NEW ROCKSTAR - Compilation in HD</p>
@@ -110,7 +112,7 @@ const Banner = () => {
           ></iframe>
           <div className="textUnderVideo">
             <div>
-              <img className='channelLogo' src={logoOggy} alt="Logo" />
+              <img className="channelLogo" src={logoOggy} alt="Logo" />
             </div>
             <div>
               <p>Zig & Sharko ⚡ BERNIE SAVED THE WORLD - Compilation in HD</p>
@@ -130,7 +132,7 @@ const Banner = () => {
           ></iframe>
           <div className="textUnderVideo">
             <div>
-              <img className='channelLogo' src={logoOggy} alt="Logo" />
+              <img className="channelLogo" src={logoOggy} alt="Logo" />
             </div>
             <div>
               <p>Zig & Sharko ✨ NEW SEASON 3 EPISODES in HD 🌈 RAINBOW GIRL</p>
@@ -150,7 +152,7 @@ const Banner = () => {
           ></iframe>
           <div className="textUnderVideo">
             <div>
-              <img className='channelLogo' src={logoOggy} alt="Oggy Logo" />
+              <img className="channelLogo" src={logoOggy} alt="Oggy Logo" />
             </div>
             <div>
               <p>Oggy and the Cockroaches 🤮 WEIRD LIQUID - Full Episodes HD</p>
@@ -170,10 +172,13 @@ const Banner = () => {
           ></iframe>
           <div className="textUnderVideo">
             <div>
-              <img className='channelLogo' src={logoOggy} alt="Logo" />
+              <img className="channelLogo" src={logoOggy} alt="Logo" />
             </div>
             <div>
-              <p>Zig & Sharko ✨ NEW SEASON 3 EPISODES in HD 🎄 CHRISTMAS COMPILATION #1</p>
+              <p>
+                Zig & Sharko ✨ NEW SEASON 3 EPISODES in HD 🎄 CHRISTMAS
+                COMPILATION #1
+              </p>
               <p>Oggy & his friends</p>
               <p>1 million views • 2 years ago</p>
             </div>
@@ -190,7 +195,7 @@ const Banner = () => {
           ></iframe>
           <div className="textUnderVideo">
             <div>
-              <img className='channelLogo' src={logoOggy} alt="Logo" />
+              <img className="channelLogo" src={logoOggy} alt="Logo" />
             </div>
             <div>
               <p>Zig & Sharko ⚡ ULTIMATE BATTLE - Compilation in HD</p>

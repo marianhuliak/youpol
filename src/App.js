@@ -1,7 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Nav from './components/Nav.js'
-import MainMenu from './components/MainMenu.js';
 import YouPolShorts from './components/YouPolShorts/YouPolShorts.js';
 import Subscriptions from './components/Subscriptions/Subscriptoins.js';
 import YouPolMusic from './components/YouPolMusic/YouPolMusic.js';
