@@ -2,6 +2,10 @@ import React, { useState, useEffect } from "react";
 import logo from "../images/youpol_logo_2017.svg";
 import logoWhite from "../images/youpol_logo_2017_white.svg";
 import magnifier from "../images/search_magnifier.svg";
+import micro from "../images/microphone_button.svg";
+import downloadButton from "../images/downloadButton.svg"
+import bell from "../images/bell.svg"
+import burger from "../images/burger.svg"
 import "./Nav.css";
 import "./Theme.css";
 
@@ -26,8 +30,15 @@ const Nav = () => {
   }, [currentTheme]);
 
   return (
-    <div className="navi">
+    <div className="navContainer">
       <div className="mainLogoContainer">
+      <button className="burgerMenuButton">
+            <img
+              className="burgerMenu"
+              src={burger}
+              alt="Burger menu"
+            />
+          </button>
         <img
           className="mainLogo"
           src={currentTheme === "light" ? logo : logoWhite}
@@ -53,9 +64,30 @@ const Nav = () => {
             />
           </button>
         </label>
-      </div>
-
+        <button className="searchMicroButton">
+            <img
+              className="searchMicro"
+              src={micro}
+              alt="Microphone"
+            />
+          </button>
+          
+          </div>
       <div>
+      <button className="downloadButton">
+            <img
+              className="download"
+              src={downloadButton}
+              alt="Download button"
+            />
+          </button>
+          <button className="bellButton">
+            <img
+              className="bell"
+              src={bell}
+              alt="Bell button"
+            />
+          </button>
         <input onClick={clickThemeHandler} type="checkbox" id="checkbox" />
       </div>
     </div>

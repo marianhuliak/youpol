@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./MainMenu.css";
 
+
 import home from "../images/home.svg";
 import shorts from "../images/shorts.svg";
 import subscriptions from "../images/subscriptions.svg";
@@ -20,7 +21,7 @@ const MainMenu = ({ currentTheme }) => {
   };
 
   return (
-    <div className="mainmenu">
+    <div className="mainMenu">
       <ul className="menuList">
         <li className="menuItem">
           <Link
@@ -41,11 +42,7 @@ const MainMenu = ({ currentTheme }) => {
             onClick={() => handleClick("shorts")}
           >
             <div className="menuIconContainer">
-              <img
-                src={shortsWhite}
-                alt="YouPol Shorts"
-                className="menuIcon"
-              />
+              <img src={shortsWhite} alt="YouPol Shorts" className="menuIcon" />
             </div>
             <p className="menuItemtext">YouPol Shorts</p>
           </Link>
