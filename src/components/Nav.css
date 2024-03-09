@@ -1,7 +1,8 @@
 .navContainer {
   display: flex;
   justify-content: space-between;
-  padding: 0 16px 0 16px;
+  padding: 0 16px;
+  height: 56px;
 }
 
 .exp {
@@ -14,12 +15,34 @@
   border: none;
 }
 
+.mainLogoContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchInput {
+  border-width: 0.5px;
+}
+
 .searchMicroButton {
   border-radius: 100%;
   width: 40px;
   height: 40px;
-  border: none;
+  border-width: 0px;
   background-size: auto;
+}
+
+.searchMagnifying {
+  width: 24px;
+}
+
+.searchButton {
+  width: 64px;
+  height: 40px;
+  padding: 1px 6px;
+  border-radius: 0 40px 40px 0;
+  color: #f8f8f8;
+  border-width: 0.1px;
 }
 
 .searchContainer {
@@ -35,6 +58,22 @@
 
   width: 24px;
   height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.download,
+.bell {
+  padding: 8px;
+  margin: 13px;
+}
+
+.settingContainer {
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #checkbox {
@@ -49,7 +88,7 @@
   cursor: pointer;
   overflow: hidden;
   transition: 0.3s ease-in-out;
-  margin: 8px;
+  margin: 14px;
 }
 
 #checkbox:checked {
@@ -101,23 +140,19 @@
   border-radius: 0 40px 40px 0;
   border-color: rgb(211, 211, 211);
   background-color: rgb(248, 248, 248);
-  border-width: 1px;
+  border-width: 0.5px;
   border-style: solid;
 }
 
 @media (min-width: 320px) {
   .burgerMenu {
-    
-    padding: 8px;
+    width: 40px !important;
+    height: 40px !important;
+    padding: 8px; /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
   }
 
-  .burgerMenuButton {
-  
-  }
-  
-  
-  
-  /*.mainLogoContainer {
+  .mainLogo {
+    width: 97px;
     padding: 18px 14px 18px 16px;
   }
 
@@ -127,24 +162,8 @@
     margin: 0px 0px 0px 32px;
     padding: 0px 4px 0px 16px;
     border-radius: 40px 0 0 40px;
-    border-width: 0.1px;
   }
-
-  .searchMagnifying {
-    width: 24px;
-  }
-
-  .searchButton {
-    width: 64px;
-    height: 40px;
-    padding: 1px 6px;
-    border-radius: 0 40px 40px 0;
-    color: #f8f8f8;
-    border-width: 0.1px;
-  }*/;
 }
-
-/*
 
 @media (min-width: 700px) {
   .searchInput {
@@ -153,24 +172,16 @@
 }
 
 @media (min-width: 1160px) {
-  .burgerMenu {
-    width: 244px;
-    height: 244px;
-    padding: 8px;
+  .exp {
+    margin-right: 15px;
   }
 
-  .mainLogoContainer {
-    padding: 18px 14px 18px 30px;
-  }
-  .mainLogo {
-    width: 4px;
-  }
   .searchInput {
     width: 536px;
+    padding: 0 4px 0 16px;
+    margin-left: 32px;
   }
 }
-
-*/
 
 /*.navContainer {
   display: flex;

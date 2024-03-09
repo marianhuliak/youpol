@@ -1,4 +1,4 @@
-.mainmenu {
+.mainMenu {
   height: 100vh;
 }
 
@@ -38,10 +38,19 @@ li {
 }
 
 @media (min-width: 320px) {
+
+  .line {
+   margin-top: 20px;
+
+  }
+  .mainMenu {
+    width: 72px;
+  }
   .menuIconContainer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 10px;
   }
 
   .menuItem {
@@ -57,6 +66,7 @@ li {
     width: 80px;
   }
   .menuItemtext {
+    margin-left: -5px;
     font-size: 10px;
     white-space: nowrap;
     overflow: hidden;
@@ -76,11 +86,11 @@ li {
     justify-content: center;
     width: 204px;
     height: 40px;
-    margin: 10px;
+    margin: 10px 10px 10px -16px;
     border-radius: 10px;
   }
 
-  .mainmenu {
+  .mainMenu {
     width: 216px;
   }
 

@@ -1,23 +1,36 @@
 :root {
-    --background-color-light: aliceblue;
-    --background-color-dark: black;
+  --background-color-light: aliceblue;
+  --background-color-dark: black;
 }
 
 .body-light {
-    background-color: var(--background);
-    
+  background-color: var(--background);
 }
 
 .body-dark {
-    background-color: var(--background-color-dark);
+  background-color: var(--background-color-dark);
 }
 
-
-.body-dark  * {
-    color: white;
+.body-dark * {
+  color: white;
 }
 
 .body-dark input {
-    border: white;
+  border: white;
+}
 
+.body-dark .searchInput {
+  background-color: black;
+  border: 1px;
+  border-color: white;
+}
+
+.body-dark .searchButton {
+  background-color: rgb(9.41%, 9.41%, 9.41%);
+}
+
+.body-dark .searchMicroButton {
+    background-color: rgb(9.41%, 9.41%, 9.41%);
+    border-width: 0.5px;
+    border-color: white;
 }
