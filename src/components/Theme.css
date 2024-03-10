@@ -16,21 +16,22 @@
 }
 
 .body-dark input {
-  border: white;
+  border: #9b9b9b;
 }
 
 .body-dark .searchInput {
   background-color: black;
-  border: 1px;
-  border-color: white;
+  border: 1px solid ;
+  border-color: #3c3c3c;
 }
 
 .body-dark .searchButton {
   background-color: rgb(9.41%, 9.41%, 9.41%);
+  border-width: 1px 1px 1px 0;
+  border-color: #3c3c3c ;
 }
 
 .body-dark .searchMicroButton {
     background-color: rgb(9.41%, 9.41%, 9.41%);
-    border-width: 0.5px;
-    border-color: white;
+    
 }

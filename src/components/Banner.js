@@ -19,7 +19,7 @@ const Banner = () => {
         <button className="commonButton">News for you</button>
       </div>
       <div className="videosBanner">
-        <div>
+        <div className="videoContainer" >
           <iframe
             className="videoOggy"
             src="https://www.youtube.com/embed/83fCmfBqX3Y"
@@ -40,7 +40,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="videoContainer">
           <iframe
             className="videoOggy"
             src="https://www.youtube.com/embed/CoUOJSASjXc"
@@ -59,7 +59,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="videoContainer">
           <iframe
             className="videoOggy"
             src="https://www.youtube.com/embed/jHDfl9i5ky4"
@@ -78,7 +78,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="videoContainer" >
           <iframe
             className="videoOggy"
             src="https://www.youtube.com/embed/z4GnCeyM_Os"
@@ -97,7 +97,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="videoContainer" >
           <iframe
             className="videoOggy"
             src="https://www.youtube.com/embed/9QbnMNd0_Zc"
@@ -116,7 +116,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="videoContainer" >
           <iframe
             className="videoOggy"
             src="https://www.youtube.com/embed/O5rClUvxGxQ"
@@ -135,7 +135,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="videoContainer" >
           <iframe
             className="videoOggy"
             src="https://www.youtube.com/embed/ePFo2BFCUd0"
@@ -154,7 +154,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="videoContainer" > 
           <iframe
             className="videoOggy"
             src="https://www.youtube.com/embed/BJCWzdj8UR8"
@@ -176,7 +176,7 @@ const Banner = () => {
             </div>
           </div>
         </div>
-        <div>
+        <div className="videoContainer" >
           <iframe
             className="videoOggy"
             src="https://www.youtube.com/embed/6ZbnBxn3akg"

@@ -3,7 +3,13 @@
 }
 
 .videosBanner {
-  margin-top: 24px;
+  margin-top: 28px;
+}
+
+.videoContainer {
+  margin-bottom: 30px;
+  margin-left: 8px;
+  margin-right: 3px;
 }
 
 .commonButton {
@@ -31,7 +37,7 @@
 }
 
 .bannerContainer {
-  padding: 0 16px 0 36px;
+  padding: 8px 16px 0 36px;
 }
 
 @media (min-width: 320px) {
