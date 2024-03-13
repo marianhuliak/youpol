@@ -2,18 +2,12 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./MainMenu.css";
 
-
-import home from "../images/home.svg";
-import shorts from "../images/shorts.svg";
-import subscriptions from "../images/subscriptions.svg";
-import music from "../images/youpol_music.svg";
-
 import homeWhite from "../images/home_white.svg";
 import shortsWhite from "../images/shorts_white.svg";
 import subscriptionsWhite from "../images/subscriptions_white.svg";
 import musicWhite from "../images/youpol_music_white.svg";
 
-const MainMenu = ({ currentTheme }) => {
+const MainMenu = () => {
   const [activeItem, setActiveItem] = useState("");
 
   const handleClick = (name) => {

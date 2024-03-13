@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Nav from "./Nav.js";
 import MainMenu from "./MainMenu.js";
 import Banner from "./Banner.js";

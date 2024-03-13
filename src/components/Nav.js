@@ -16,11 +16,11 @@ import whiteBurger from "../images/burger_white.svg";
 import "./Nav.css";
 import "./Theme.css";
 
-let navstate = {};
+
 const Nav = () => {
   const [currentTheme, setCurrentTheme] = useState("light");
   const [inputValue, setInputValue] = useState("");
-  navstate = currentTheme;
+  
   const clickThemeHandler = () => {
     setCurrentTheme(currentTheme === "light" ? "dark" : "light");
   };
