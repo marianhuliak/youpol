@@ -1,0 +1,41 @@
+.navContainer {
+  background-color: rgba(23, 23, 32, 1);
+  height: 176px;
+  width: 100%;
+  display: flex;
+}
+
+.title {
+  color: rgba(255, 255, 255, 1);
+  margin: 8px 0 0 10px;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  font-family: "Montserrat", sans-serif;
+}
+
+.linkContainer {
+
+    width: 190px;
+    height: 60px;
+  display: flex;
+}
+.link {
+    width: 190px;
+    height: 60px;
+    border-radius: 30px;
+
+    border-color: aliceblue;
+    box-shadow: 0 0 15px #4CAF50; /* Світіння при наведенні */
+    transform: scale(1.05);
+}
+
+.image {
+  border-radius: 100%;
+
+  width: 53px;
+  height: 42px;
+}
+
+
+
+

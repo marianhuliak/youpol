@@ -1,0 +1,13 @@
+.photo{
+    width: 100%;
+
+
+}
+
+.qrcode {
+    width: 120px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}

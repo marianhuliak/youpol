@@ -4,23 +4,21 @@ import logoWhite from "../images/youpol_logo_2017_white.svg";
 import magnifier from "../images/search_magnifier.svg";
 import whiteMagnifier from "../images/search_magnifier_white.svg";
 import micro from "../images/microphone_button.svg";
-import whiteMicro from "../images/microphone_button_white.svg"
+import whiteMicro from "../images/microphone_button_white.svg";
 import downloadButton from "../images/downloadButton.svg";
-import whiteDownload from "../images/downloadButton_white.svg"
+import whiteDownload from "../images/downloadButton_white.svg";
 import bell from "../images/bell.svg";
-import whiteBell from "../images/bell_white.svg"
+import whiteBell from "../images/bell_white.svg";
 import burger from "../images/burger.svg";
 import whiteBurger from "../images/burger_white.svg";
-
 
 import "./Nav.css";
 import "./Theme.css";
 
-
 const Nav = () => {
   const [currentTheme, setCurrentTheme] = useState("light");
   const [inputValue, setInputValue] = useState("");
-  
+
   const clickThemeHandler = () => {
     setCurrentTheme(currentTheme === "light" ? "dark" : "light");
   };
@@ -40,7 +38,11 @@ const Nav = () => {
     <div className="navContainer">
       <div className="mainLogoContainer">
         <button className="burgerMenuButton">
-          <img className="burgerMenu" src={currentTheme === "light" ? burger : whiteBurger} alt="Burger menu" />
+          <img
+            className="burgerMenu"
+            src={currentTheme === "light" ? burger : whiteBurger}
+            alt="Burger menu"
+          />
         </button>
         <img
           className="mainLogo"
@@ -67,19 +69,27 @@ const Nav = () => {
           </button>
         </label>
         <button className="searchMicroButton">
-          <img className="searchMicro" src={currentTheme === "light" ? micro : whiteMicro} alt="Microphone" />
+          <img
+            className="searchMicro"
+            src={currentTheme === "light" ? micro : whiteMicro}
+            alt="Microphone"
+          />
         </button>
       </div>
       <div className="settingContainer">
         <button className="downloadButton">
           <img
             className="download"
-            src={currentTheme === "light" ? downloadButton : whiteDownload }
+            src={currentTheme === "light" ? downloadButton : whiteDownload}
             alt="Download button"
           />
         </button>
         <button className="bellButton">
-          <img className="bell" src={currentTheme === "light" ? bell : whiteBell} alt="Bell button" />
+          <img
+            className="bell"
+            src={currentTheme === "light" ? bell : whiteBell}
+            alt="Bell button"
+          />
         </button>
         <input onClick={clickThemeHandler} type="checkbox" id="checkbox" />
       </div>
