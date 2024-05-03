@@ -1,16 +1,16 @@
 import React from "react";
 import Navigation from "./Navigation.js";
-import Body from "./Body.js";
+import Gallery from "./Gallery.js";
 
-const YouPolShorts = () => {
+const App = () => {
   return (
     <>
 
       
      <Navigation/>
-     <Body/>
+     <Gallery/>
     </>
   );
 };
 
-export default YouPolShorts;
+export default App;

@@ -9,15 +9,15 @@ const Navigation = () => {
   return (
     <>
       <div className="navContainer">
-        <div>
         <h1 className="title">{titleFromApi}</h1>
-        </div>
         <div className="linkContainer">
-          <a href="https://example.com" className="link">
+          <div className="link">
             <img src={mainPicture} className="image" alt="Main"></img>
-            <p className="description">Owner</p>
-            <p className="ownerName">{ownerName}</p>
-          </a>
+            <div className="ownerContainer">
+              <p className="description">Owner</p>
+              <p className="ownerName">{ownerName}</p>
+            </div>
+          </div>
         </div>
       </div>
     </>
